@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<title>Hide Frame</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+
+
+
+<div id="covidPop">
+  <button class="remodal-close" title="Close Video" onClick="hide('covidPop')"></button>
+  <figure>
+    <iframe src="https://www.youtube.com/embed/BU5ZFerWmvw?autoplay=1;rel=0&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </figure>
+</div>
+
+
+
+<script>
+function hide(obj) {
+
+    var el = document.getElementById(obj);
+
+        el.style.display = 'none';
+
+}
+</script>
+
+</body>
+</html>
